@@ -32,7 +32,7 @@ public class NewTest {
 public void a() {
 	
 	System.out.println("dd");
-	   assertEquals(0, 0);
+	   assertEquals(0, 1);
 }
 	
   @Test
