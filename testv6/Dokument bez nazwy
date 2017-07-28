@@ -1,1 +1,0 @@
-sudo java -cp "/home/tomeeclipse-workspace/testv6"/bin/:"/home/tomek/eclipse-workspace/testv6"/lib/* org.testng.TestNG testng.xml
