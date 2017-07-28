@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 public class NewTest {
-	
+	/*
 	  private WebDriver driver;
 	    private String baseUrl;
 	    private boolean acceptNextAlert = true;
@@ -27,14 +27,14 @@ public class NewTest {
 	      driver = new FirefoxDriver();
 	      baseUrl = "https://www.google.pl/";
 	      driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	    }
+	    }*/
 @Test
 public void a() {
 	
 	System.out.println("dd");
 	   assertEquals(0, 1);
 }
-	
+/*	
   @Test
   public void f() {  
 		      driver.get(baseUrl + "/search?client=ubuntu&channel=fs&q=fdgf&ie=utf-8&oe=utf-8&gfe_rd=cr&ei=mUt4Wda8OI_c8Af477vgCA");
@@ -86,7 +86,7 @@ public void a() {
 	      } finally {
 	        acceptNextAlert = true;
 	      }
-	    }
+	    }*/
 	  
 
 }

@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 public class NewTest {
 	
-	  private WebDriver driver;
+	  /*private WebDriver driver;
 	    private String baseUrl;
 	    private boolean acceptNextAlert = true;
 	    private StringBuffer verificationErrors = new StringBuffer();
@@ -27,7 +27,7 @@ public class NewTest {
 	      driver = new FirefoxDriver();
 	      baseUrl = "https://www.google.pl/";
 	      driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-	    }
+	    }*/
 @Test
 public void a() {
 	
@@ -35,7 +35,7 @@ public void a() {
 	   assertEquals(0, 0);
 }
 	
-  @Test
+/*  @Test
   public void f() {  
 		      driver.get(baseUrl + "/search?client=ubuntu&channel=fs&q=fdgf&ie=utf-8&oe=utf-8&gfe_rd=cr&ei=mUt4Wda8OI_c8Af477vgCA");
 	      driver.findElement(By.linkText("FDGF - What does FDGF stand for? The Free Dictionary")).click();
@@ -87,6 +87,6 @@ public void a() {
 	        acceptNextAlert = true;
 	      }
 	    }
-	  
+	  */
 
 }
